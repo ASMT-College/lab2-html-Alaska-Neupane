@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-container">
+    <form >
+        <fieldset>
+            <legend>
+        <h1 class="mathiko">Signup</h1></legend>
+        <div class="onlycontent">
+        <label for="usern">Username</label> <br>
+        <input type="text" id="usrn" name="username"> <br> <br>
+
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" name="name"> <br> <br>
+
+        <label for="pass">Password</label><br>
+        <input type="password" id="pass" name="password"><br> <br>
+
+        <label for="cpass">Confirm-Password</label><br>
+        <input type="password" id="cpass" name="confirm-password"> <br> <br>
+      <label for="gender">Gender:</label> <br>
+   <input type="radio" name="gender" value="M" id="o1"> M
+   <input type="radio" name="gender" value="F" id="o2"> F <br><br>
+<label for="hobbies"> Hobbies:</label> <br>
+<input type="checkbox" name="hobbies" value="Read" id="op1"> Read
+   <input type="checkbox" name="hobbies" value="Copy" id="op2"> Copy
+   <input type="checkbox" name="hobbies" value="Sleep" id="op3"> Sleep <br><br>
+    <label for="country">Country:</label> <br>
+    <select name="country" id="country">
+        <option value="" disabled selected hidden>Select country</option>
+    <option value="one">Nepal</option>
+    <option value="two">Sirlanka</option>
+    <option value="three">Korea</option>
+</select> <br><br> <br>
+<button id="button">Submit</button>
+</div>
+</fieldset>
+    </form>
+</div>
+</body>
+</html>
